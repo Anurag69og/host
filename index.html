@@ -1833,7 +1833,7 @@ document.addEventListener('click', function (event) {
                      </div> <!-- closes the protected div -->
 
   <script>
-    const melody = "Soni@7597;
+    const correctPassword = "Soni@7597;
     let attempts = 1;
 
     function showLogin() {
@@ -1855,7 +1855,7 @@ document.addEventListener('click', function (event) {
         e.preventDefault();
         const input = document.getElementById("passInput").value;
 
-        if (input === melody) {
+        if (input === correctPassword) {
           document.getElementById("mainContent").style.display = "block";
           loginDiv.remove();
         } else {
